@@ -13,4 +13,4 @@ Outside of work, I maintain the [undercover][undercover-gh] Ruby Gem and [Underc
 [undercover-gh]: https://github.com/grodowski/undercover
 [undercover-ci]: https://undercover-ci.com
 [mrgrodo-medium]: https://mrgrodo.medium.com/
-[strava-jan]: https://strava.com/athlete/mrgrodo
+[strava-jan]: https://www.strava.com/athletes/10208031
