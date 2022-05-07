@@ -4,11 +4,10 @@
 
 layout: home
 ---
-Hey! 👋
 
-I am a software engineer with an interest and experience in building developer tools.
+🧑🏻‍💻 I am sofware engineer with experience in devtools and automation. Currently building accessible no-code quality assurance at [Rainforest QA][rainforest-web].
 
-I currently work as Staff Engineer at [Rainforest QA][rainforest-web]. I build and maintain the [undercover][undercover-gh] Ruby Gem and [Github App][undercover-ci] and write about it on [Medium][mrgrodo-medium]. I love to spend my free time outside, most often on the [road bicycle][strava-jan].
+Outside of work, I maintain the [undercover][undercover-gh] Ruby Gem and [UndercoverCI Github App][undercover-ci] and write about it on [Medium][mrgrodo-medium]. I also love to spend time outside on the [road bicycle][strava-jan].
 
 [rainforest-web]: https://rainforestqa.com
 [undercover-gh]: https://github.com/grodowski/undercover

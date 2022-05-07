@@ -21,8 +21,7 @@
 title: Jan Grodowski
 email: mrgrodo@hey.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a software engineer with an interest and experience in building developer tools.
-  Currently working at Rainforest QA.
+  Staff software engineer hacking on Ruby and developer tools. Salzburg, Austria and Warsaw, Poland.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mrgrodo
