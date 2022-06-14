@@ -5,7 +5,7 @@
 layout: home
 ---
 
-🧑🏻‍💻 I am sofware engineer with experience in devtools and automation. Currently building accessible no-code quality assurance at [Rainforest QA][rainforest-web].
+🧑🏻‍💻 Sofware engineer with experience in the devtools and automation space. Since 2017 I help [Rainforest QA][rainforest-web] build and scale their no-code testing platform powered by automation and crowsourcing.
 
 Outside of work, I maintain the [undercover][undercover-gh] Ruby Gem and [UndercoverCI Github App][undercover-ci] and write about it on [Medium][mrgrodo-medium]. I also love to spend time outside on the [road bicycle][strava-jan].
 
