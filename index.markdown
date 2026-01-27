@@ -2,17 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: homepage
 ---
 
 ![profile-photo](assets/images/profile_photo.jpg)
 
-🧑🏻‍💻 Staff sofware engineer with experience in the devtools space. Since 2017 I work at [Rainforest QA][rainforest-web] and scale the vision-based automated testing offering.
+🧑🏻‍💻 Software engineer on the Database Platform team at [Shopify][shopify-web], building tools for schema migrations and data partitioning across their global infrastructure.
 
-Outside of work, I maintain the [undercover][undercover-gh] Ruby Gem and [UndercoverCI Github App][undercover-ci] and write about it on [Medium][mrgrodo-medium]. I also love to spend time outside on the [road bicycle][strava-jan].
+I also maintain the [undercover][undercover] Ruby gem and GitHub App, and love riding the [road bicycle][strava-jan].
 
-[rainforest-web]: https://rainforestqa.com
-[undercover-gh]: https://github.com/grodowski/undercover
-[undercover-ci]: https://undercover-ci.com
-[mrgrodo-medium]: https://mrgrodo.medium.com/
+[shopify-web]: https://shopify.engineering
+[undercover]: https://undercover-ci.com
 [strava-jan]: https://www.strava.com/athletes/10208031

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Branch coverage now available in Undercover checks ✨
+tag:
+- ruby-on-rails
+- github
+- github-actions
+- testing
+- ruby
+---
+
+<p>The purpose of branch coverage is to check whether every conditional branch in a given line of code has been tested and Ruby has this feature since 2.5. Ruby’s simplecov can report branch coverage too and now so does undercover with the new 0.4 release!</p><p>This addition allows you to detect <em>even more </em>untested code within each automated pull request review, including untested case statements, conditional method calls (e.g. foo&amp;.jump), single-line ifs (return :foo if valid?) or ternaries (foo ? 1 : 2).</p><p>Head over to <a href="https://github.com/grodowski/undercover/blob/master/README.md">the readme</a> if you’re getting started, otherwise here’s what to do to add branch coverage reporting to a pre-existing undercover or UndercoverCI project setup:</p><p>1️⃣ Ensure your test command reports coverage using simplecov &gt;= 0.18.0 and simplecov-lcov &gt;= 0.8.0</p><p>2️⃣ Add enable_coverage(:branch) to the simplecov configuration block in spec_ or test_helper.rb:</p><pre>SimpleCov.start do<br>  enable_coverage(:branch)<br>end</pre><p>3️⃣ That’s it! From now on, your checks will pick up and flag any untested code branches, plus you’ll see the total number of branches per method in the UndercoverCI check summary. 🤙🕵</p><p>This is how it looks in a sample check result from <a href="https://undercover-ci.com">UndercoverCI</a> (GitHub App):</p><figure><img alt="" src="/assets/images/posts/ffLoVBkNXZNTGpGvtSyOXw.png" /><figcaption>Check the exact count of untested branches in each line by expanding the “Raw output” view</figcaption></figure><p>And that’s a sample branch coverage result from undercover CLI:</p><figure><img alt="" src="/assets/images/posts/2I3merI8ZizpbjJK5uykuQ.png" /><figcaption>Line 5 was flagged with a single hit, but only one branch covered</figcaption></figure><p>On a closing note, this addition to undercover was possible thanks to <a href="https://github.com/PragTob">PragTob</a> who added branch coverage to SimpleCov and <a href="https://github.com/magneland">Magne Land</a>’s contribution to the branch cov feature in Undercover. Thank you! ❤️</p>

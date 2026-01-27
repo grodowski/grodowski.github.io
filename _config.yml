@@ -20,19 +20,44 @@
 
 title: Jan Grodowski
 email: mrgrodo@hey.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Staff software engineer hacking on Ruby and developer tools. Salzburg, Austria and Warsaw, Poland.
+description: >-
+  Staff software engineer at Shopify. Salzburg, Austria.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mrgrodo
-github_username:  grodowski
-linkedin_username: jangrodowski
-instagram_username: jangrodowski
+author:
+  name: Jan Grodowski
+  email: mrgrodo@hey.com
+
+minima:
+  skin: auto
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/grodowski"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/jangrodowski"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/grodowski.bsky.social"
+    - title: Instagram
+      icon: instagram
+      url: "https://instagram.com/jangrodowski"
+    - title: X (Twitter)
+      icon: x-twitter
+      url: "https://x.com/mrgrodo"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - global-builtin
+    - color-functions
+    - import
 
 # Exclude from processing.
 # The following items will not be processed, by default.
