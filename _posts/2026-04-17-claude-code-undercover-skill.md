@@ -11,7 +11,7 @@ tag:
 
 We built the same Ruby CLI four times with Claude Code, two models with and without a coverage skill, and scored every run against a test suite the agent never saw. A word of caution: this is a weekend experiment and not a rigorous study, so take the numbers accordingly.
 
-The CLI is `gt`, a tool for managing stacked pull requests (think Graphite). Stacked PRs let you split a large change into a chain of smaller, reviewable branches that rebase onto each other. `gt` automates the branching, rebasing, and PR management from the command line. Six commands, a git sandbox for testing, GitHub API integration: real enough to stress-test an agent without becoming a research project.
+The CLI is `gt`, a tool for managing stacked pull requests (think Graphite). Stacked PRs let you split a large change into a chain of smaller, reviewable branches that rebase onto each other. `gt` automates the branching, rebasing, and PR management from the command line. It feels real enough to stress-test a coding agent. You can read more about the original CLI in the [previous post about building `gt`](/2026/03/15/gt-stacked-prs).
 
 ### The evaluation
 
