@@ -92,7 +92,7 @@ The plain runs' tests are mostly integration-style: build a stack, run a command
 
 None of the models passed the blind suite on the first session. Every run needed at least one fix session, included in the totals.
 
-The fix sessions weren't equal either, with plain agents hitting real bugs in the blind BDD suite: incorrect constant loading that was never exercised in tests, and a genuine restack logic error. The skill agents needed fixes too, but only for surface-level output formatting differences.
+The fix sessions weren't equal either. One plain agent had a naming clash between its own `CLI` class and `::CLI` from the `cli-ui` gem, never caught by its own tests. One also failed to handle more than one stack branching from root. One silently corrupted the remote on a failed restack. The skill agents needed fixes too, but only for surface-level output formatting differences.
 
 Both skill variants wrote leaner implementations (408 vs 509 LOC for Sonnet, 379 vs 474 for Opus). The qualitative review flagged overly defensive (and unexercised in tests) error handling that the skilled agents had removed.
 
